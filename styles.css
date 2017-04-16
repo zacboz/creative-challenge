@@ -59,8 +59,8 @@ font-family: 'Oswald', sans-serif;*/
 
 body{
   margin: 0 0;
-  font-family: 'Roboto', sans-serif;
-
+  font-family: 'lato', sans-serif;
+  color: rgb(64, 64, 65);
 }
 a{
   cursor: pointer;
@@ -171,4 +171,139 @@ h4{
 }
 .see-all-courses i {
   margin-right: 5px;
+}
+
+.home-unique{
+  padding: 100px;
+  max-width: 1000px;
+  margin: 0 auto;
+  color: rgb(64, 64, 65);
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: .8px;
+}
+
+h5{
+  font-size: 28px;
+  letter-spacing: 1.8px;
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-weight: 600;
+}
+
+.unique-container{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.unique{
+  width: 30%;
+  padding: 0 20px;
+}
+
+.unique img{
+  width: auto;
+  height: 175px;
+}
+
+.unique-description{
+  line-height: 1.6;
+  text-align: left;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.unique-title{
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.learn-more-link {
+  width: 100%;
+  background-color: #2AABE2;
+  padding: 10px 0px;
+  font-size: 13px;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.learn-more-link i{
+  margin-left: 5px;
+}
+
+.learn-more-link:hover{
+  background-color: #57bde8;
+}
+
+.newsletter-nav {
+  background-color: rgb(40, 40, 40);
+  color: white;
+  height: 60px;
+  width: 80%;
+  text-align: center;
+  vertical-align: middle;
+  box-shadow: 0 0 16px 0 rgba(20,20,20,0.5);
+  position: fixed;
+  bottom: 0;
+  z-index: 20;
+  padding: 10px 10%;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  font-family: 'lato', sans-serif;
+  font-size: 13px;
+  letter-spacing: 1.4px;
+}
+
+.newsletter-logo{
+  margin: 10px;
+  height: 40px;
+  width:auto;
+  margin-right: 30px;
+}
+
+.newsletter-content{
+  /*width: 60%;*/
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.newsletter-content p{
+  margin-top: 22px;
+
+}
+
+.newsletter-content a{
+  margin-top: 11px;
+  margin-left: 30px;
+  width: 200px;
+  height: 18px;
+  padding: 10px 0;
+  background-color: #2AABE2;
+  font-weight: 600;
+}
+
+.newsletter-content a:hover{
+  background-color: #57bde8;
+}
+
+.close-newsletter{
+  position: absolute;
+  right: 20px;
+  bottom: 29px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.hide-newsletter-nav{
+  display: none;
+}
+
+.show-newsletter-nav{
+  position: 0;
+  
 }
