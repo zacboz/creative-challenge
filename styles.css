@@ -16,13 +16,17 @@ font-family: 'Oswald', sans-serif;*/
 
 .logo-wrapper{
   float: left;
-  width: 40%;
+  width: 25%;
 }
 
 .brand-image{
   float: left;
   width: 170px;
   margin-top: 31px;
+}
+
+.hamburger-menu{
+  display: none;
 }
 
 .nav-links{
@@ -74,7 +78,7 @@ a{
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
-  padding: 20vh 15%;
+  padding: 20vh 18%;
   font-size: 30px;
   font-weight: 300;
   font-family: 'Oswald', sans-serif;
@@ -85,7 +89,7 @@ h1{
 }
 
 .home-devmtn-features{
-  margin-top: 5%;
+  margin-top: 12%;
   margin-bottom: 7%;
   text-align: center;
   display: flex;
@@ -112,7 +116,7 @@ h2{
   font-size: 30px;
   letter-spacing: 4px;
 }
-h3{
+.home-launch-career{
   font-size: 20px;
   letter-spacing: 4px;
 }
@@ -124,6 +128,7 @@ h3{
   text-align: center;
   font-family: 'lato', sans-serif;
   font-weight: 600;
+  text-transform: none;
 }
 
 h4{
@@ -151,7 +156,7 @@ h4{
   align-content: center;
 }
 
-.course-links a{
+.course-link {
   width: 100px;
   background-color: #2AABE2;
   padding: 8px 0px;
@@ -160,7 +165,7 @@ h4{
   margin: 10px 2.5px;
 }
 
-.course-links a:hover{
+.course-link:hover{
   background-color: #57bde8;
 }
 
@@ -363,7 +368,7 @@ h3 {
 .newsletter-text {
   font-size: 12px;
   letter-spacing: 1.5px;
-  margin: 35px 0;
+  margin: 35px 10px;
 }
 
 .newsletter-signup-popup {
@@ -374,7 +379,7 @@ h3 {
 input {
   border: none;
   border-bottom: 1px solid rgb(20, 20, 20);
-  font-size: 20px;
+  font-size: 17px;
   min-width: 275px;
   padding: 10px 20px;
   padding-left: 0;
@@ -410,4 +415,198 @@ button:focus{
 
 .hide-newsletter-popup {
   display: none;
+}
+
+@media (max-width: 1400px){
+
+  .home-devmtn-features{
+    margin-top: 5%;
+    margin-bottom: 7%;
+  }
+
+}
+
+@media (max-width: 769px){
+  .nav-links{
+    display: none;
+  }
+
+  .hamburger-menu{
+    display: block;
+    float: right;
+    position: relative;
+    top: 30px;
+    /*right: 20px;*/
+    font-size: 25px;
+    color: #2AABE2;
+    cursor: pointer;
+  }
+
+  h1{
+    font-size: 35px;
+  }
+  h2{
+    font-size: 20px;
+  }
+  .home-launch-career {
+    font-size: 16px;
+    text-transform: none;
+  }
+
+  .course-links{
+    padding: 0 10%;
+  }
+
+  .home-unique{
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  .unique{
+    padding: 0 16px;
+  }
+
+  .newsletter-content p{
+    margin-top: 16px;
+  }
+
+  .newsletter-nav{
+    font-size: 12px;
+  }
+
+  .newsletter-content a{
+    margin-top: 12px;
+    height: 15px;
+  }
+
+}
+
+@media (max-width: 426px){
+
+  .home-intro{
+    padding: 20vh 5%;
+  }
+  h1{
+    font-size: 25px;
+  }
+  h2{
+    font-size: 18px;
+  }
+  .home-launch-career{
+    font-size: 15px;
+  }
+  .home-devmtn-features{
+    margin-top: 12%;
+    margin-bottom: 14%;
+  }
+
+  .feature-link{
+    width: 170px;
+    padding: 12px 0;
+    font-size: 9px;
+  }
+
+  .home-courses{
+    padding: 70px 3%;
+  }
+
+  .course-links{
+    display: block;
+    padding: 0 5%;
+  }
+
+  .course-icons img{
+    height: 45px;
+  }
+
+  .course-link {
+    position: relative;
+    right: 0;
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .home-unique{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+
+  .unique-container{
+    display: block;
+    text-align: center;
+  }
+  .unique {
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 0;
+  }
+
+  .newsletter-content p{
+    display: none;
+  }
+  .newsletter-nav{
+    padding: 10px 0;
+    width: 100%;
+  }
+
+  .newsletter-content{
+    width: 90%;
+    display: block;
+    text-align: center;
+  }
+
+  .newsletter-logo{
+    margin-right: 10px;
+    float: left;
+  }
+
+  .newsletter-content a{
+    margin-left: 0px;
+    width: 170px;
+    float: left;
+    margin-left: 11%;
+  }
+
+  .close-newsletter{
+    right: 10px;
+  }
+
+  .newsletter-popup-container{
+    width: 90%;
+    height: auto;
+  }
+
+  .newsletter-popup-content{
+    padding: 20px 10px;
+  }
+
+  input{
+    min-width: 80%;
+  }
+
+  button {
+    margin-top: 10px;
+  }
+
+}
+
+@media (max-width: 376px){
+  .home-devmtn-features{
+    margin-top: 8%;
+    margin-bottom: 9%;
+  }
+}
+
+@media (max-width: 321px){
+  .home-devmtn-features{
+    margin-top: 8%;
+    margin-bottom: 9%;
+  }
+  .feature-link{
+    width: 150px;
+    padding: 12px 0;
+    font-size: 8px;
+  }
 }
